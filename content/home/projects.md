@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Projects"
+title = "Projets"
 subtitle = ""
 widget = "projects"
 
@@ -28,14 +28,7 @@ filter_default = 0
 [[filter]]
   name = "All"
   tag = "*"
-  
-[[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
 
-[[filter]]
-  name = "Other"
-  tag = ".demo"
 
 +++
 
