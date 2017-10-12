@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Teaching"
+title = "Enseignement"
 subtitle = ""
 widget = "custom"
 
@@ -14,14 +14,8 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
+J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 
-I am a teaching instructor for the following courses at University X:
+- 360-301-RE: Méthodes quantitatives avancées
+- Ateliers en soins infirmiers
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science

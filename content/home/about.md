@@ -12,31 +12,24 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Enseignement des mathématiques",
+    "Applications des mathématiques",
+    "Vulgarisation mathématiques"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "MSc en mathématiques appliquées"
+  institution = "Université de Montréal"
+  year = 2002
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
+  course = "BSc en mathématiques-physique"
+  institution = "Université de Montréal"
+  year = 2000
  
 +++
 
-# Biography
+# Biographie
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Marc-André Désautels est détenteur d'un baccalauréat en mathématiques et physique ainsi que d'une maîtrise en mathématiques appliquées de l'Université de Montréal. Il a travaillé sur la détection de contours dans des images médicales à l'aide des méthodes iso-niveaux et des ondelettes. Il enseigne les mathématiques au cégep Saint-Jean-sur-Richelieu depuis 2002 et est l'auteur de deux livres de mathématiques au niveau collégial.
