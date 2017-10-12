@@ -18,4 +18,4 @@ J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 
 - 360-301-RE: Méthodes quantitatives avancées
 - Ateliers en soins infirmiers
-- Premier essai de site web ajouté [test](https://desautm.github.io/rmarkdown_website/)
+<!-- - Premier essai de site web ajouté [test](https://desautm.github.io/rmarkdown_website/) --> 
