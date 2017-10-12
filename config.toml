@@ -41,7 +41,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "Cégep Saint-Jean-sur-Richelieu", url = "http://www.cstjean.qc.ca/accueil" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "calculdifferentiel.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "marcandre.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "marc-andre.desautels@cstjean.qc.ca"
   address = "Sur rendez-vous"
   phone = "450-347-5301 poste 2173"
