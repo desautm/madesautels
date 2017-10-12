@@ -1,7 +1,7 @@
 +++
 date = "2016-10-15T00:00:00"
 title = "Où suis-je? Le positionnement GPS dans la classe d'algèbre linéaire"
-abstract = ""
+abstract = "Nous présentons la théorie derrière le système GPS. Nous présentons aussi des outils pour être en mesure d'utiliser cette théorie pour créer des devoirs individualisés pour les étudiants d'un cours d'algèbre linéaire."
 abstract_short = ""
 event = "60e congrès de l'AMQ"
 event_url = "https://www.amq.math.ca/congres/"
@@ -20,7 +20,3 @@ image = ""
 caption = ""
 
 +++
-
-[Présentation sous format PDF](https://github.com/desautm/publications/blob/master/gps_algebre_lineaire.pdf).
-
-{{ site.baseurl }}
