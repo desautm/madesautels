@@ -28,6 +28,8 @@ caption = ""
 
 +++
 
+> Je veux remercier Christian Côté pour l'idée de cet atelier.
+
 Voici les documents utilisés dans la présentation sur le théorème des 4 couleurs
 
 - La [présentation sous format PowerPoint](/ppt/theoreme_4_couleurs.pptx)
