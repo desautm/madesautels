@@ -19,3 +19,5 @@ J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 - 360-301-RE: Méthodes quantitatives avancées
 - Ateliers en soins infirmiers
 <!-- - Premier essai de site web ajouté [test](https://desautm.github.io/rmarkdown_website/) --> 
+
+Vous pouvez trouver un [site web](https://desautm.github.io/presentation_R/) **très simple** qui contiendra des fichiers en `R Markdown` pour introduire le langage `R`.
