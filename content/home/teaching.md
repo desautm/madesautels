@@ -16,7 +16,7 @@ weight = 60
 
 J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 
-- 360-301-RE: Méthodes quantitatives avancées
+- 201-NYB-05 (Calcul intégral en sciences de la nature)
 - Ateliers en soins infirmiers
 <!-- - Premier essai de site web ajouté [test](https://desautm.github.io/rmarkdown_website/) --> 
 
