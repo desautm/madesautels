@@ -3,7 +3,7 @@ abstract = "Le 17 janvier 1966, suite à un accident en vol, l’armée américa
 
 abstract_short = ""
 authors = ["Marc-André Désautels"]
-date = "À venir"
+date = ""
 image_preview = ""
 math = true
 publication_types = ["2"]
