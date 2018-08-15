@@ -16,8 +16,6 @@ weight = 60
 
 J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 
-- 201-NYB-05 (Calcul intégral en sciences de la nature)
+- 201-GHB-04 (Calcul différentiel et intégral dans l'espace)
 - Ateliers en soins infirmiers
-<!-- - Premier essai de site web ajouté [test](https://desautm.github.io/rmarkdown_website/) --> 
 
-<!-- Vous pouvez trouver un [site web](https://desautm.github.io/presentation_R/) **très simple** qui contiendra des fichiers en `R Markdown` pour introduire le langage `R`. -->
