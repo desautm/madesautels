@@ -1,6 +1,6 @@
 # Site web personnel de Marc-André Désautels
 
-* Construit en utilisant le paquetage [`blogdown`](https://bookdown.org/yihui/blogdown/) de RStudio et le thème [Hugo Academic theme](https://github.com/gcushen/hugo-academic).
+* Construit en utilisant la librairie [`blogdown`](https://bookdown.org/yihui/blogdown/) de RStudio et le thème [Hugo Academic theme](https://github.com/gcushen/hugo-academic).
 
 * Sera déployé sur Netlify. Le [blogue](https://yihui.name/en/2017/06/netlify-instead-of-github-pages/) de Yihui Xie m'a convaincu.
 
