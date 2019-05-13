@@ -16,6 +16,6 @@ weight = 60
 
 J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 
-- 201-GHB-04 (Calcul différentiel et intégral dans l'espace)
+- 201-815-ST (Outils mathématiques en architecture 1)
 - Ateliers en soins infirmiers
 
