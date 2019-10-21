@@ -16,6 +16,7 @@ weight = 60
 
 J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 
-- 201-815-ST (Outils mathématiques en architecture 1)
-- Ateliers en soins infirmiers
+- 201-NYC-05 (Algèbre linéaire et géométrie vectorielle)
+- 201-8B5-ST (Mathématiques pour informatique)
+- 360-301-RE (Méthodes quantitatives avancées)
 
