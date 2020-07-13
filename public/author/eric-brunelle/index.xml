@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Éric Brunelle | Marc-André Désautels</title>
+    <link>/author/eric-brunelle/</link>
+      <atom:link href="/author/eric-brunelle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Éric Brunelle</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>Éric Brunelle</title>
+      <link>/author/eric-brunelle/</link>
+    </image>
+    
+    <item>
+      <title>Calcul différentiel, 2e édition</title>
+      <link>/publication/book/calcul_differentiel/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/book/calcul_differentiel/</guid>
+      <description>&lt;p&gt;Cette nouvelle édition apporte nombre d’améliorations dont :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un contenu revu et corrigé pour le rendre plus clair et concis.&lt;/li&gt;
+&lt;li&gt;Un premier chapitre optimisé autour des notions essentielles et de leurs applications qui fait un retour sur les contenus de base nécessaires à la compréhension des chapitres suivants.&lt;/li&gt;
+&lt;li&gt;L’ajout d’une centaine d’exercices supplémentaires de mise en forme variés à la fin de chaque chapitre.&lt;/li&gt;
+&lt;li&gt;L’identification du niveau de difficulté des exercices (facile, moyen et difficile).&lt;/li&gt;
+&lt;li&gt;L’ajout d’une section sur les applications du calcul différentiel en administration.&lt;/li&gt;
+&lt;li&gt;L’ajout d’un index des définitions, des théorèmes, des corollaires et des propositions.&lt;/li&gt;
+&lt;li&gt;L’ajout d’activités de laboratoires pour accompagner l’apprentissage des notions (par exemple : le théorème des gendarmes; la continuité d’une fonction sur un intervalle).&lt;/li&gt;
+&lt;li&gt;L’ajout d’exercices permettant d’introduire l’utilisation de logiciels libres, tel GeoGebra, pour faire du calcul différentiel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;La version numérique de Calcul différentiel  est offerte gratuitement aux professeurs et étudiants sur MaZoneCEC, une zone multiplateformes accessible en ligne et hors ligne à partir d’un PC, d’un Mac ou des tablettes iPad et Android.  Elle vous permet :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;de projeter et de feuilleter les pages de l’ouvrage en classe;&lt;/li&gt;
+&lt;li&gt;d’annoter l’ouvrage au crayon et au marqueur;&lt;/li&gt;
+&lt;li&gt;de sauvegarder vos notes personnelles;&lt;/li&gt;
+&lt;li&gt;d’insérez vos propres liens Internet au fil des pages.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Elle vous donne aussi accès aux ressources complémentaires suivantes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Un test d’autoévaluation des connaissances en mathématique.&lt;/li&gt;
+&lt;li&gt;Un solutionnaire détaillé (présenté par chapitre).&lt;/li&gt;
+&lt;li&gt;Des exercices supplémentaires avec solutionnaire par chapitre.&lt;/li&gt;
+&lt;li&gt;Des animations permettant de visualiser certains problèmes.&lt;/li&gt;
+&lt;li&gt;Des problèmes à résoudre avec les logiciels Maple et Maxima.&lt;/li&gt;
+&lt;li&gt;Des laboratoires sur l’utilisation de logiciels de calcul symbolique en calcul différentiel.&lt;/li&gt;
+&lt;li&gt;Des laboratoires à effectuer à l’aide du logiciel Geogebra (manuel d’utilisation inclus).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L’accès 1 an à la version numérique uniquement est aussi disponible pour achat en ligne.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Calcul intégral</title>
+      <link>/publication/book/calcul_integral/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>/publication/book/calcul_integral/</guid>
+      <description>&lt;p&gt;Par sa démarche rigoureuse, Calcul intégral permet aux étudiants de faire l’apprentissage de techniques de résolution en les appliquant à des situations réelles. Cette application constante des notions théoriques sur des exemples concrets incite le développement d’une approche intuitive à la résolution de problème.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le premier chapitre effectue un retour sur les notions vues dans Calcul différentiel, il introduit aussi la règle de L’Hospital et la notion de différentielle&lt;/li&gt;
+&lt;li&gt;Chaque chapitre suivant présente les notions clés à l’aide d’applications concrètes et de nombreux exemples&lt;/li&gt;
+&lt;li&gt;Des techniques de calcul sont appliquées à la résolution d’équations différentielles tout au long du manuel&lt;/li&gt;
+&lt;li&gt;Une nouvelle approche pour l’étude des séries qui met l’accent sur les séries de Taylor&lt;/li&gt;
+&lt;li&gt;Fait de nombreux liens sur l’application de diverses notions mathématiques dans les sciences de la nature et les sciences humaines&lt;/li&gt;
+&lt;li&gt;Des annexes pratiques sur les théorèmes d’analyse, l’application du calcul intégral en sciences humaines et l’utilisation de logiciels de calcul symbolique (comme Maxima ou Maple) pour la résolution de problèmes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En plus de vous permettre de gérer vos groupes d’étudiants, le complément pédagogique en ligne CEC Plus offre le solutionnaire des exercices et des annexes du manuel.  Le CEC Plus est offert gratuitement sur adoption de la collection.&lt;/p&gt;
+&lt;p&gt;Sur adoption de la collection, la version numérique pour l&amp;rsquo;enseignant de Calcul Intégral vous est offerte gratuitement sur maZoneCEC, une zone multiplateformes accessible à partir d’un PC, d’un Mac ou des tablettes iPad et Android.  Elle vous permet :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;de projeter et de feuilleter les pages de l’ouvrage en classe;&lt;/li&gt;
+&lt;li&gt;d’annoter l’ouvrage au crayon et au marqueur;&lt;/li&gt;
+&lt;li&gt;de sauvegarder vos notes personnelles;&lt;/li&gt;
+&lt;li&gt;d’insérez vos propres liens Internet au fil des pages.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>L&#39;algorithme CORDIC</title>
+      <link>/publication/cordic/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/cordic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

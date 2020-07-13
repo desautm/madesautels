@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Présentations récentes et à venir | Marc-André Désautels</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Présentations récentes et à venir</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>Présentations récentes et à venir</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>Mais où sont les trous de balles?</title>
+      <link>/talk/abraham_wald_club_math/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/abraham_wald_club_math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mais où sont les trous de balles?</title>
+      <link>/talk/abraham_wald/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/talk/abraham_wald/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Le problème du char d&#39;assaut allemand</title>
+      <link>/talk/char_assaut/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/talk/char_assaut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comment chercher (et trouver) une aiguille dans une botte de foin?</title>
+      <link>/talk/theoreme_bayes/</link>
+      <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/talk/theoreme_bayes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Où suis-je? Le positionnement GPS dans la classe d&#39;algèbre linéaire</title>
+      <link>/talk/gps/</link>
+      <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>/talk/gps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trois applications méconnues pour sciences de la nature</title>
+      <link>/talk/trois_applications/</link>
+      <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>/talk/trois_applications/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

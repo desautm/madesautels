@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Source Themes | Marc-André Désautels</title>
+    <link>/tag/source-themes/</link>
+      <atom:link href="/tag/source-themes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Source Themes</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/avatar.jpg</url>
+      <title>Source Themes</title>
+      <link>/tag/source-themes/</link>
+    </image>
+    
+    <item>
+      <title>Le problème du char d&#39;assaut allemand.</title>
+      <link>/publication/probleme_char_assaut/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/probleme_char_assaut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comment chercher (et trouver) une aiguille dans une botte de foin.</title>
+      <link>/publication/theoreme_bayes/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/theoreme_bayes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les mathématiques en alpinisme</title>
+      <link>/publication/mathematiques_alpinisme/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/mathematiques_alpinisme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>L&#39;algorithme CORDIC</title>
+      <link>/publication/cordic/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>/publication/cordic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
