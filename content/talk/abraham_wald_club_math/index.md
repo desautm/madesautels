@@ -21,6 +21,6 @@ title: Mais où sont les trous de balles?
 url_code: ""
 url_pdf: ""
 url_slides: "https://desautm.github.io/WaldClub/#1"
-url_video: ""
+url_video: "https://www.youtube.com/watch?v=D3mBkEcocUA"
 ---
 
