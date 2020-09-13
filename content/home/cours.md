@@ -69,6 +69,6 @@ subtitle = ""
 
 J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
 
-- 201-815-ST (Outils mathématiques pour l'architecture 1)
+- 360-300-RE (Méthodes quantitatives)
 - 360-300-12 (Méthodes quantitatives)
-- 360-833-ST (Intégration des apprentissages mathématiques/physique)
+- 201-MA2-ST (Mathématiques pour soins infirmiers)
