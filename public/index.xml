@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Marc-André Désautels</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Mon, 14 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/avatar.jpg</url>
       <title>Marc-André Désautels</title>
@@ -51,6 +51,122 @@
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 &lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Les plateformes d&#39;évaluation en ligne</title>
+      <link>/post/les-plateformes-d-evaluation-en-ligne/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/post/les-plateformes-d-evaluation-en-ligne/</guid>
+      <description>
+
+
+&lt;blockquote&gt;
+&lt;p&gt;Ce billet a été publié sur le site du &lt;a href=&#34;http://griemetic.ca/fr/2020/08/31/les-plateformes-devaluation-en-ligne/&#34;&gt;GRIÉMÉtic&lt;/a&gt; pour permettre d’offrir une banque de ressources à divers intervenants des milieux secondaire, collégial et universitaire. Cette banque contient de nombreuses méthodes et instruments d’évaluation pour un contexte d’enseignement et d’évaluation à distance.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;L’original de cet article se trouve &lt;a href=&#34;http://griemetic.ca/fr/2020/08/31/les-plateformes-devaluation-en-ligne/&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Suite à l’épidémie de Covid-19, les enseignants.es se sont retrouvés à devoir modifier de façon profonde leurs méthodes d’enseignement. De plus, ils et elles ont dus réfléchir à la manière d’évaluer leurs étudiants.es à distance. Nous voulons dans ce bref article tenter de débroussailler et de préciser les avantages et inconvénients d’évaluer nos étudiants.es en ligne, de manière asynchrone ou pas. Cet article ne présume pas faire un tour d’horizon exhaustif des possibilités de l’évaluation en ligne, mais plutôt permettre de démontrer les possibilités, les avantages et aussi les défauts des outils d’évaluation en ligne.&lt;/p&gt;
+&lt;p&gt;Nous discutons dans cet article de plateformes qui permettent une évaluation qui se rapproche le plus possible d’une évaluation traditionnelle. Nous omettons donc les options qui permettent simplement des questions de types choix de réponses ou réponses courtes (par exemple &lt;a href=&#34;https://www.google.com/intl/fr_ca/forms/about/&#34;&gt;Google Forms&lt;/a&gt;, &lt;a href=&#34;https://forms.office.com/&#34;&gt;Microsoft Forms&lt;/a&gt;, etc.). Nous discuterons de plateformes permettant d’évaluer des questions de types réponses longues, réponses sous forme de textes, réponses sous forme de calculs, etc. Les deux plateformes utilisées par l’auteur sont:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gradescope.com/&#34;&gt;Gradescope&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://crowdmark.com/&#34;&gt;Crowdmark&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ces deux plateformes ont des fonctionnalités très similaires et nous présenterons les grandes étapes qu’un évaluateur doit faire pour partir d’une évaluation traditionnelle et finir avec une évaluation en ligne.&lt;/p&gt;
+&lt;div id=&#34;pour-qui-sadresse-lévaluation-en-ligne&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Pour qui s’adresse l’évaluation en ligne?&lt;/h1&gt;
+&lt;p&gt;Bien que la courbe d’apprentissage des techniques du web se soit aplatie avec le temps, il est certain qu’une certaine familiarité et maîtrise des technologies de l’information sont des atouts importants pour son utilisation. Au début, l’utilisation d’une évaluation en ligne demandera davantage de temps qu’une évaluation traditionnelle mais plus vous l’utiliserez, plus vous gagnerez du temps et de la flexibilité dans vos évaluations. Il faut être un peu débrouillard, savoir aller chercher de l’information et avoir un peu de courage pour débuter ce type d’évaluation. La collaboration entre enseignants.es pour l’utilisation de cette technologie est un excellent moyen de débuter puisque la charge de travail et les divers apprentissages sont partagés entre plusieurs personnes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comment-ça-marche&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Comment ça marche?&lt;/h1&gt;
+&lt;p&gt;Pour bien comprendre la manière d’utiliser ces technologies d’évaluation, nous présenterons le flux de travail nécessaire pour partir d’une évaluation «traditionnelle» et arriver au processus complet d’une évaluation «en ligne». Nous scinderons ce processus en plusieurs étapes et discuterons des avantages et inconvénients potentiels.&lt;/p&gt;
+&lt;div id=&#34;la-création-dune-évaluation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;La création d’une évaluation&lt;/h2&gt;
+&lt;p&gt;Nous prenons pour acquis que le cours dont l’évaluation fait partie a été créé. Les étudiants.es ont été inscrits et ajoutés à ce cours et les membres de l’équipe enseignante ont eux aussi été ajoutés. En effet, il est habituellement possible d’être plusieurs évaluateurs pour une même évaluation ou pour un même cours.&lt;/p&gt;
+&lt;p&gt;L’évaluation peut être créée pour tous les étudiants d’un cours ou alors pour seulement certains d’entre eux. Il est possible de créer des évaluations distinctes pour diverses équipes par exemple.
+La manière la plus simple de créer une évaluation en ligne est de téléverser l’évaluation habituelle «version papier», sous format &lt;strong&gt;Pdf&lt;/strong&gt; Ou &lt;strong&gt;Word&lt;/strong&gt; par exemple. Si vous avez peu d’expérience avec ces technologies, c’est un excellent moyen de débuter avec un travail minimal.&lt;/p&gt;
+&lt;p&gt;Par contre, il est plus versatile de créer une évaluation et d’ajouter des questions directement sur la plateforme. Ceci permet d’utiliser la versatilité du web, car les évaluations sont accessibles par n’importe quel fureteur internet. C’est un avantage pour vous et vos étudiants.es car ces plateformes n’utilisent pas de logiciel que vous auriez à télécharger. Elles sont accessibles directement de votre fureteur internet, de la même façon que vous accéderiez à &lt;a href=&#34;https://www.youtube.com/&#34;&gt;YouTube&lt;/a&gt; par exemple. Les étudiants.es peuvent même utiliser leur téléphone intelligent pour y accéder.&lt;/p&gt;
+&lt;div id=&#34;la-création-des-questions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;La création des questions&lt;/h3&gt;
+&lt;p&gt;Pour les utilisateurs débutants, la création d’une question est un processus simple où il suffit d’écrire le texte de la question et de lui associer une pondération. Il est habituellement possible de créer plusieurs types de questions: choix de réponses, réponses courtes, réponses longues, etc. Il est par contre possible d’obtenir davantage de possibilités en utilisant les fonctions plus avancées de ces plateformes, même si ce n’est pas obligatoire.&lt;/p&gt;
+&lt;div id=&#34;pour-les-utilisateurs-plus-avancés&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Pour les utilisateurs plus avancés&lt;/h4&gt;
+&lt;p&gt;Ces deux plateformes permettent l’utilisation d’un langage de balisage léger appelé &lt;a href=&#34;https://fr.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt;. Celui-ci permet de modifier le formatage du texte, d’ajouter des hyperliens, des images, etc. Le tableau ci-dessous présente quelques possibilités de ce langage.&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;74%&#34; /&gt;
+&lt;col width=&#34;25%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Résultat&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;code&gt;*italique*&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;em&gt;italique&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;code&gt;**gras**&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;gras&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;code&gt;[GRIÉMÉtic](http://griemetic.ca/fr/)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://griemetic.ca/fr/&#34;&gt;GRIÉMÉtic&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;code&gt;![Logo GRIÉMÉtic](http://griemetic.ca/wp-content/uploads/2017/10/cropped-Griemetic_Bleu-e1508594133153-3.png)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;http://griemetic.ca/wp-content/uploads/2017/10/cropped-Griemetic_Bleu-e1508594133153-3.png&#34; alt=&#34;Logo GRIÉMÉtic&#34; /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Pour avoir une idée des possibilités de ce langage, le &lt;a href=&#34;https://markdown-guide.readthedocs.io/en/latest/basics.html&#34;&gt;markdown guide&lt;/a&gt; contient la liste de presque toutes les possibilités de ce langage. L’intérêt de ce langage est sa syntaxe simple, le fait qu’ils soit interprétable en fichier texte et ouvert et donc gratuit et accessible pour tous.&lt;/p&gt;
+&lt;p&gt;Il est aussi habituellement possible d’utiliser le langage &lt;a href=&#34;https://fr.wikipedia.org/wiki/LaTeX&#34;&gt;LaTeX&lt;/a&gt; par l’entremise de &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt;, ce qui permet d’écrire des expressions mathématiques dans les questions mais aussi dans la rétroaction et la correction des copies. Ce genre d’expression peut être créé en encadrant les formules LaTeX entre un ou deux signes de dollars. Par exemple, la formule suivante &lt;code&gt;$\zeta (s) = \sum_{n=1}^\infty \frac{1}{n^s}$&lt;/code&gt; sera interprétée et vue par les étudiants.es comme ceci &lt;span class=&#34;math inline&#34;&gt;\(\zeta (s) = \sum_{n=1}^\infty \frac{1}{n^s}\)&lt;/span&gt; dans le document final.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;comment-les-étudiants.es-remettent-leurs-évaluations&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Comment les étudiants.es remettent leurs évaluations?&lt;/h3&gt;
+&lt;p&gt;Les étudiants peuvent faire leur évaluation sur papier, à l’aide de &lt;a href=&#34;https://www.microsoft.com/fr-ca/microsoft-365/word&#34;&gt;Word&lt;/a&gt; ou &lt;a href=&#34;https://www.google.com/intl/fr_ca/docs/about/&#34;&gt;Google Docs&lt;/a&gt;. Chaque question possède sa propre fenêtre de téléversement, il est donc préférable de compléter chaque question sur une page distincte. Les étudiants.es doivent sauver, scanner ou photographier leur évaluation. Il suffit ensuite de téléverser ces documents dans les zones de téléversement appropriées.&lt;/p&gt;
+&lt;p&gt;Si vous êtes débutants et avez par exemple créé une seule question pour votre évaluation (ce que je ne vous conseille pas!), les étudiants pourraient téléverser plusieurs fichiers qui contiendraient leurs démarches complètes. Si vous décidez de scinder votre examen en plusieurs questions, ceci vous permettra de ne corriger qu’une seule question à la fois, pour tous vos étudiants.es.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;la-distribution-de-lévaluation-aux-étudiants.es&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;La distribution de l’évaluation aux étudiants.es&lt;/h3&gt;
+&lt;p&gt;Une fois l’évaluation terminée, il est possible de l’envoyer en un seul clic aux étudiants.es, qui la recevront à leur adresse courriel. Un temps peut être imparti pour l’exécution de l’évaluation. Bien sûr, le plus grand problème de ce genre d’évaluation est qu’il est difficile, voire impossible de contrer le plagiat. Les étudiants.es peuvent se trouver à n’importe quel endroit, recevoir l’aide de n’importe qui, peuvent avoir accès à leur notes, à leurs livres, etc.&lt;/p&gt;
+&lt;p&gt;Une fois les évaluations présentes sur la plateforme, &lt;strong&gt;tous&lt;/strong&gt; les évaluateurs peuvent corriger les questions qui leur sont attitrées au même moment, à l’endroit qui leur convient. Il n’est plus nécessaire de partager les copies physiques des évaluations et d’attendre qu’un des évaluateurs ait terminé pour qu’un autre continue le travail. Pour une personne seule, la flexibilité de pouvoir corriger à n’importe quel moment, n’importe où, une seule sous-question sans avoir à gérer une pile de copies est un immense avantage.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;les-outils-dévaluation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Les outils d’évaluation&lt;/h2&gt;
+&lt;p&gt;Comme indiqué précédemment, pour chacune des questions, les étudiants.es devront envoyer une photo (ou un scan ou un fichier) de leur travail. Ceci simplifie la tâche de l’évaluateur car il peut se concentrer sur une seule et même question pour tous les étudiants.es, sans connaître le reste de leur évaluation ou leur identité. L’équité dans l’évaluation de tous les étudiants.es s’en trouve donc grandement améliorée. De plus, il est possible de construire, de maintenir et d’appliquer une même grille d’évaluation pour une même question, applicable par &lt;strong&gt;tous&lt;/strong&gt; les membres de l’équipe d’évaluation.&lt;/p&gt;
+&lt;p&gt;Plusieurs outils sont à notre disposition pour évaluer une question. Il est possible d’ajouter des commentaires. Ces commentaires supportent habituellement le &lt;a href=&#34;https://fr.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt; et &lt;a href=&#34;https://fr.wikipedia.org/wiki/LaTeX&#34;&gt;LaTeX&lt;/a&gt;, ce qui donne une flexibilité extraordinaire à l’évaluateur. Ces commentaires sont enregistrés, réutilisables et modifiables par &lt;strong&gt;tous&lt;/strong&gt; les évaluateurs. Il est donc possible de donner des rétroactions extrêmement précises pour donner aux étudiants.es les raisons exactes pour lesquelles des points ont été ajoutés ou déduits. Sur une évaluation habituelle sur papier, il peut devenir long et difficile de réutiliser le même commentaire à plusieurs reprises. Les rétroactions en souffrent donc. Sur une plateforme d’évaluation en ligne, il est possible de réutiliser à l’infini un commentaire.&lt;/p&gt;
+&lt;p&gt;Mais il y a plus, ces commentaires peuvent être accompagnés d’une pondération. Un commentaire peut donc ajouter ou enlever des points selon la situation. Mais puisque ces commentaires sont modifiables, il est possible, à tout moment, de modifier une pondération si l’évaluateur avait mal évalué celle-ci. La plupart des évaluateurs vous le diront, il peut arriver de devoir modifier la pondération de plusieurs copies suite à une réévaluation de la pondération. Sur les versions papiers, le travail consiste à revoir toutes les copies où un changement peut être envisagé et d’ensuite faire les modifications. Sur une plateforme en ligne, le changement de pondération ou la modification d’une rétroaction se fait à un seul endroit et ces modifications sont ensuite automatiquement appliquées pour toutes les évaluations concernées.&lt;/p&gt;
+&lt;p&gt;Il est également possible d’écrire ou de dessiner (préférablement avec un stylet, mais la souris est une alternative possible) directement sur la copie. L’utilisation de symboles divers est habituellement possible, comme le crochet, la croix, le point d’interrogation, etc.&lt;/p&gt;
+&lt;div id=&#34;lia&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;L’IA&lt;/h3&gt;
+&lt;p&gt;Sur certaines plateformes, il est parfois possible d’utiliser l’IA (ou Intelligence Artificielle), pour regrouper les réponses semblables en blocs, blocs qui pourront être évalués un à un. Ceci permet de diminuer les redondances dans la correction, de sauver du temps et de donner une rétroaction de grande qualité même pour un grand nombre d’étudiants.es. La technologie est par contre embryonnaire et ne s’applique qu’à un nombre restreint de situations. Par exemple des diagrammes simples de molécules ou des expressions mathématiques courtes.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;les-résultats-de-lévaluation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Les résultats de l’évaluation&lt;/h2&gt;
+&lt;div id=&#34;retourner-les-notes-aux-étudiants.es&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Retourner les notes aux étudiants.es&lt;/h3&gt;
+&lt;p&gt;Une fois la correction terminée, il est possible d’envoyer les notes aux étudiants.es, en un seul clic. Il est également possible d’envoyer la copie annotée, contenant tous les commentaires, tous les symboles et toutes les pondérations ajoutées par les évaluateurs. Cette copie devient donc un outil précieux qui permet aux étudiants.es de comprendre très exactement leurs erreurs. Ceci permet également de simplifier le processus de révision de notes car il est habituellement possible de le faire par l’entremise de la plateforme choisie.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;analyser-les-notes&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Analyser les notes&lt;/h3&gt;
+&lt;p&gt;Puisque chaque question peut être créée indépendamment, il est possible d’obtenir des statistiques précises sur chacune d’entres elles. Il devient ensuite simple de connaître la moyenne ou la médiane de chaque question, le nombre d’étudiants.es l’ayant réussie ou échouée, etc. Ces informations permettent de bonifier les évaluations et l’enseignement car elles montrent les forces et les faiblesses des étudiants.es.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;Comme cet article permet de le constater, l’évaluation en ligne est possible. Elle comporte même plusieurs avantages par rapport à l’évaluation papier, particulièrement au niveau de la rétroaction. Par contre, du travail supplémentaire est demandé à l’enseignant.e pour débuter dans ce type d’évaluation. Mais malgré cet effort supplémentaire, nous suggérons de tenter au moins une fois l’expérience.&lt;/p&gt;
+&lt;p&gt;De plus, ces plateformes ont été pensées pour qu’on puisse les utiliser même lorsque l’évaluation se fait en classe sur des copies papier. La manière de faire de ces deux plateformes est un peu différente mais l’idée de base reste la même. L’évaluateur crée une évaluation et il doit construire un gabarit d’examen qu’il devra enregistrer sur la plateforme. La plateforme lui produira ensuite des copies papier de cette évaluation à distribuer aux étudiants.es. Il faut ensuite scanner ces copies, les téléverser sur la plateforme et il est maintenant possible d’utiliser tous les outils discutés dans cet article.&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
