@@ -5,12 +5,20 @@
     <link>/author/marc-andre-desautels/</link>
       <atom:link href="/author/marc-andre-desautels/index.xml" rel="self" type="application/rss+xml" />
     <description>Marc-André Désautels</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/avatar.jpg</url>
       <title>Marc-André Désautels</title>
       <link>/author/marc-andre-desautels/</link>
     </image>
+    
+    <item>
+      <title>Formules magique pour volumes</title>
+      <link>/publication/formule_magique_volumes/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/formule_magique_volumes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Le problème du char d&#39;assaut allemand.</title>
