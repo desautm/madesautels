@@ -67,8 +67,3 @@ subtitle = ""
  css_class = ""
 +++
 
-J'enseigne présentement les cours suivants au cégep Saint-Jean-sur-Richelieu:
-
-- 360-300-RE (Méthodes quantitatives)
-- 360-300-12 (Méthodes quantitatives)
-- 201-MA2-ST (Mathématiques pour soins infirmiers)

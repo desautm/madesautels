@@ -21,7 +21,7 @@ tags:
 title: Formules magique pour volumes
 url_code: ""
 url_dataset: ""
-url_pdf: ""
+url_pdf: "pdf/2020_formule_magique.pdf"
 url_poster: ""
 url_project: ""
 url_slides: ""
