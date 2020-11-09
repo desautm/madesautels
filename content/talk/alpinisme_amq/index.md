@@ -5,7 +5,7 @@ abstract: "Les trois ~~meilleurs~~ pires films d'escalade de tous les temps sont
 address:
 all_day: false
 authors: []
-date: "2020-12-10"
+date: "2020-12-10T16:00:00Z"
 date_end: ""
 event: 64e congrès de l’AMQ
 event_url: https://www.amq.math.ca/congres/virtuel2020/
@@ -22,7 +22,7 @@ tags: []
 title: La falaise de la mort... ou les mathématiques en alpinisme
 url_code: ""
 url_pdf: ""
-url_slides: "https://desautm.github.io/MathAlpinisme/#1"
+url_slides: ""
 url_video: ""
 ---
 
