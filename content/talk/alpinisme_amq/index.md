@@ -22,7 +22,7 @@ tags: []
 title: La falaise de la mort... ou les mathématiques en alpinisme
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "https://desautm.github.io/MathAlpinisme/#1"
 url_video: ""
 ---
 
