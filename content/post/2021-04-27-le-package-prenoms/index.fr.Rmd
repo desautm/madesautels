@@ -1,14 +1,14 @@
 ---
-title: Le package `prenoms` est sur CRAN
+title: Le package prenoms
 author: ''
 date: '2021-04-27'
-slug: le-package-prenoms-est-sur-cran
+slug: le-package-prenoms
 categories: []
 tags: []
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-04-27T15:55:34-04:00'
+lastmod: '2021-04-27T16:28:34-04:00'
 featured: no
 image:
   caption: ''
@@ -67,7 +67,7 @@ prenoms %>%
 
 ## La popularité des prénoms de ma famille entre 1980 et 2020
 
-```{r}
+```{r, fig.path = "static"}
 family <- prenoms %>%
   filter(
     name == "Marc-Andre" & sex == "M" |
@@ -78,9 +78,8 @@ family <- prenoms %>%
   group_by(name, year, sex) %>%
   summarise(n = sum(n)) %>%
   arrange(year)
-```
+  
 
-```{r}
 ggplot(data = family, aes(x = year, y = n, color = name))+
   geom_line()+
   scale_x_continuous( breaks = seq(1980, 2020, by = 5))
