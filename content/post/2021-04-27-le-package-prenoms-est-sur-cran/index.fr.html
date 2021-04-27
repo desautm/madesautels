@@ -1,0 +1,112 @@
+---
+title: Le package `prenoms` est sur CRAN
+author: ''
+date: '2021-04-27'
+slug: le-package-prenoms-est-sur-cran
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-04-27T15:55:34-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index.fr_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Mon premier package, <code>prenoms</code>, vient tout juste d’arriver sur <a href="https://cran.r-project.org/">CRAN</a>. Le package est en fait une base de données de tous les prénoms donnés aux enfants du Québec entre 1980 et 2020.</p>
+<p>Pour l’installer, rien de plus facile:</p>
+<pre class="r"><code>install.packages(&quot;prenoms&quot;)</code></pre>
+<p>Vous pouvez ensuite l’utiliser comme ceci:</p>
+<pre class="r"><code>library(prenoms)</code></pre>
+<p>Nous allons utiliser le package <code>tidyverse</code> pour visualiser les données:</p>
+<pre class="r"><code># install.packages(&quot;tidyverse&quot;) si le package n&#39;est pas encore installé
+library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --</code></pre>
+<pre><code>## v ggplot2 3.3.3     v purrr   0.3.4
+## v tibble  3.1.1     v dplyr   1.0.5
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<p>Une base de données sous la forme d’un <code>tibble</code> sera maintenant accessible sous le noms de <code>prenoms</code>.</p>
+<pre class="r"><code>glimpse(prenoms)</code></pre>
+<pre><code>## Rows: 769,890
+## Columns: 4
+## $ year &lt;int&gt; 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980,~
+## $ sex  &lt;chr&gt; &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, ~
+## $ name &lt;chr&gt; &quot;A-Catherine&quot;, &quot;A-Christiane&quot;, &quot;A-Fernanda&quot;, &quot;A-Genevieve&quot;, &quot;A Ch~
+## $ n    &lt;int&gt; 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1,~</code></pre>
+<pre class="r"><code>prenoms</code></pre>
+<pre><code>## # A tibble: 769,890 x 4
+##     year sex   name             n
+##    &lt;int&gt; &lt;chr&gt; &lt;chr&gt;        &lt;int&gt;
+##  1  1980 F     A-Catherine      2
+##  2  1980 F     A-Christiane     1
+##  3  1980 F     A-Fernanda       1
+##  4  1980 F     A-Genevieve      1
+##  5  1980 F     A Charlotte      1
+##  6  1980 F     A Dominique      1
+##  7  1980 F     A Elisabeth      2
+##  8  1980 F     A Francoise      1
+##  9  1980 F     A Icha           1
+## 10  1980 F     A Maria          1
+## # ... with 769,880 more rows</code></pre>
+<div id="quelques-exemples" class="section level1">
+<h1>Quelques exemples</h1>
+<div id="les-5-prénoms-masculins-les-plus-populaires-en-2020" class="section level2">
+<h2>Les 5 prénoms masculins les plus populaires en 2020</h2>
+<pre class="r"><code>prenoms %&gt;% 
+  filter(year == 2020 &amp; sex == &quot;M&quot;) %&gt;% 
+  arrange(desc(n)) %&gt;% 
+  head(5)</code></pre>
+<pre><code>## # A tibble: 5 x 4
+##    year sex   name        n
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;   &lt;int&gt;
+## 1  2020 M     Liam      661
+## 2  2020 M     William   644
+## 3  2020 M     Noah      639
+## 4  2020 M     Thomas    594
+## 5  2020 M     Leo       572</code></pre>
+</div>
+<div id="les-5-prénoms-féminins-les-plus-populaires-en-2020" class="section level2">
+<h2>Les 5 prénoms féminins les plus populaires en 2020</h2>
+<pre class="r"><code>prenoms %&gt;% 
+  filter(year == 2020 &amp; sex == &quot;F&quot;) %&gt;% 
+  arrange(desc(n)) %&gt;% 
+  head(5)</code></pre>
+<pre><code>## # A tibble: 5 x 4
+##    year sex   name          n
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;     &lt;int&gt;
+## 1  2020 F     Olivia      543
+## 2  2020 F     Alice       491
+## 3  2020 F     Emma        491
+## 4  2020 F     Charlie     488
+## 5  2020 F     Charlotte   449</code></pre>
+</div>
+<div id="la-popularité-des-prénoms-de-ma-famille-entre-1980-et-2020" class="section level2">
+<h2>La popularité des prénoms de ma famille entre 1980 et 2020</h2>
+<pre class="r"><code>family &lt;- prenoms %&gt;%
+  filter(
+    name == &quot;Marc-Andre&quot; &amp; sex == &quot;M&quot; |
+    name == &quot;Laurent&quot; &amp; sex == &quot;M&quot; |
+    name == &quot;Melanie&quot; &amp; sex == &quot;F&quot; |
+    name == &quot;Anna&quot; &amp; sex == &quot;F&quot;
+  ) %&gt;%
+  group_by(name, year, sex) %&gt;%
+  summarise(n = sum(n)) %&gt;%
+  arrange(year)</code></pre>
+<pre><code>## `summarise()` has grouped output by &#39;name&#39;, &#39;year&#39;. You can override using the `.groups` argument.</code></pre>
+<pre class="r"><code>ggplot(data = family, aes(x = year, y = n, color = name))+
+  geom_line()+
+  scale_x_continuous( breaks = seq(1980, 2020, by = 5))</code></pre>
+<p><img src="{{< blogdown/postref >}}index.fr_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+</div>
+</div>
