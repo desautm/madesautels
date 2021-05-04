@@ -1,0 +1,81 @@
+---
+title: Le package onbabynames
+author: Marc-André Désautels
+date: '2021-05-04'
+slug: le-package-onbabynames
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-05-04T07:44:04-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Mon deuxième package, `onbabynames`, vient tout juste d'arriver sur [CRAN](https://cran.r-project.org/). Le package est en fait une base de données de tous les prénoms donnés aux enfants en Ontario entre 1917 et 2018. Les prénoms donnés moins de 5 fois ont été enlevés de la base de données pour conserver la confidentialité des données
+
+Pour l'installer, rien de plus facile:
+```{r eval=FALSE}
+install.packages("onbabynames")
+```
+
+Vous pouvez ensuite l'utiliser comme ceci:
+```{r}
+library(onbabynames)
+```
+
+Nous allons utiliser le package `tidyverse` pour visualiser les données:
+```{r}
+# install.packages("tidyverse") si le package n'est pas encore installé
+library(tidyverse)
+```
+
+
+Une base de données sous la forme d'un `tibble` sera maintenant accessible sous le noms de `onbabynames`.
+```{r}
+glimpse(onbabynames)
+```
+
+```{r}
+onbabynames
+```
+
+# Quelques exemples
+
+## Les 5 prénoms masculins les plus populaires en 2018
+
+```{r}
+onbabynames %>% 
+  filter(year == 2018 & sex == "M") %>% 
+  arrange(desc(n)) %>% 
+  head(5)
+```
+
+## Les 5 prénoms féminins les plus populaires en 2018
+
+```{r}
+onbabynames %>% 
+  filter(year == 2018 & sex == "F") %>% 
+  arrange(desc(n)) %>% 
+  head(5)
+```
+
+## L'évolution de la popularité des cinq prénoms féminins les plus populaires en 218
+
+```{r, fig.path = "static"}
+girls2018 <- onbabynames %>%
+    filter(year == 2018 & sex == "F") %>%
+    arrange(desc(n)) %>%
+    select(name) %>%
+    head(5)
+
+onbabynames %>%
+    filter(name %in% girls2018$name) %>%
+    ggplot(aes(x = year, y = n, color = name)) +
+    geom_line()
+```

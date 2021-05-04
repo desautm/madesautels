@@ -1,0 +1,108 @@
+---
+title: Le package onbabynames
+author: Marc-André Désautels
+date: '2021-05-04'
+slug: le-package-onbabynames
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-05-04T07:44:04-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index.fr_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Mon deuxième package, <code>onbabynames</code>, vient tout juste d’arriver sur <a href="https://cran.r-project.org/">CRAN</a>. Le package est en fait une base de données de tous les prénoms donnés aux enfants en Ontario entre 1917 et 2018. Les prénoms donnés moins de 5 fois ont été enlevés de la base de données pour conserver la confidentialité des données</p>
+<p>Pour l’installer, rien de plus facile:</p>
+<pre class="r"><code>install.packages(&quot;onbabynames&quot;)</code></pre>
+<p>Vous pouvez ensuite l’utiliser comme ceci:</p>
+<pre class="r"><code>library(onbabynames)</code></pre>
+<p>Nous allons utiliser le package <code>tidyverse</code> pour visualiser les données:</p>
+<pre class="r"><code># install.packages(&quot;tidyverse&quot;) si le package n&#39;est pas encore installé
+library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --</code></pre>
+<pre><code>## v ggplot2 3.3.3     v purrr   0.3.4
+## v tibble  3.1.1     v dplyr   1.0.5
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<p>Une base de données sous la forme d’un <code>tibble</code> sera maintenant accessible sous le noms de <code>onbabynames</code>.</p>
+<pre class="r"><code>glimpse(onbabynames)</code></pre>
+<pre><code>## Rows: 161,703
+## Columns: 4
+## $ year &lt;int&gt; 1913, 1913, 1914, 1914, 1914, 1915, 1915, 1915, 1915, 1915, 1916,~
+## $ sex  &lt;chr&gt; &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, ~
+## $ name &lt;chr&gt; &quot;Margaret&quot;, &quot;Mary&quot;, &quot;Gladys&quot;, &quot;Margaret&quot;, &quot;Mary&quot;, &quot;Dorothy&quot;, &quot;Mar~
+## $ n    &lt;int&gt; 6, 7, 6, 9, 9, 9, 13, 10, 7, 7, 6, 8, 10, 6, 14, 12, 12, 7, 89, 6~</code></pre>
+<pre class="r"><code>onbabynames</code></pre>
+<pre><code>## # A tibble: 161,703 x 4
+##     year sex   name         n
+##    &lt;int&gt; &lt;chr&gt; &lt;chr&gt;    &lt;int&gt;
+##  1  1913 F     Margaret     6
+##  2  1913 F     Mary         7
+##  3  1914 F     Gladys       6
+##  4  1914 F     Margaret     9
+##  5  1914 F     Mary         9
+##  6  1915 F     Dorothy      9
+##  7  1915 F     Margaret    13
+##  8  1915 F     Marie       10
+##  9  1915 F     Mary         7
+## 10  1915 F     Ruth         7
+## # ... with 161,693 more rows</code></pre>
+<div id="quelques-exemples" class="section level1">
+<h1>Quelques exemples</h1>
+<div id="les-5-prénoms-masculins-les-plus-populaires-en-2018" class="section level2">
+<h2>Les 5 prénoms masculins les plus populaires en 2018</h2>
+<pre class="r"><code>onbabynames %&gt;% 
+  filter(year == 2018 &amp; sex == &quot;M&quot;) %&gt;% 
+  arrange(desc(n)) %&gt;% 
+  head(5)</code></pre>
+<pre><code>## # A tibble: 5 x 4
+##    year sex   name         n
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;    &lt;int&gt;
+## 1  2018 M     Liam       795
+## 2  2018 M     Noah       787
+## 3  2018 M     Lucas      671
+## 4  2018 M     William    660
+## 5  2018 M     Benjamin   643</code></pre>
+</div>
+<div id="les-5-prénoms-féminins-les-plus-populaires-en-2018" class="section level2">
+<h2>Les 5 prénoms féminins les plus populaires en 2018</h2>
+<pre class="r"><code>onbabynames %&gt;% 
+  filter(year == 2018 &amp; sex == &quot;F&quot;) %&gt;% 
+  arrange(desc(n)) %&gt;% 
+  head(5)</code></pre>
+<pre><code>## # A tibble: 5 x 4
+##    year sex   name          n
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;     &lt;int&gt;
+## 1  2018 F     Olivia      863
+## 2  2018 F     Emma        686
+## 3  2018 F     Charlotte   682
+## 4  2018 F     Amelia      560
+## 5  2018 F     Ava         559</code></pre>
+</div>
+<div id="lévolution-de-la-popularité-des-cinq-prénoms-féminins-les-plus-populaires-en-218" class="section level2">
+<h2>L’évolution de la popularité des cinq prénoms féminins les plus populaires en 218</h2>
+<pre class="r"><code>girls2018 &lt;- onbabynames %&gt;%
+    filter(year == 2018 &amp; sex == &quot;F&quot;) %&gt;%
+    arrange(desc(n)) %&gt;%
+    select(name) %&gt;%
+    head(5)
+
+onbabynames %&gt;%
+    filter(name %in% girls2018$name) %&gt;%
+    ggplot(aes(x = year, y = n, color = name)) +
+    geom_line()</code></pre>
+<p><img src="staticunnamed-chunk-8-1.png" width="672" /></p>
+</div>
+</div>
