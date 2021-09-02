@@ -14,8 +14,7 @@
   
 +++
 
-À la session d'automne 2020, j'enseigne les cours suivants au Cégep Saint-Jean-sur-Richelieu:
+À la session d'automne 2021, j'enseigne les cours suivants au Cégep Saint-Jean-sur-Richelieu:
 
-- 360-300-A2 : Méthodes quantitatives en sciences humaines
-- 360-300-RE : Méthodes quantitatives en sciences humaines
-- 201-MA2-ST : Mathématiques pour soins infirmiers
+- 201-8B5-ST : Mathématiques pour informatique
+- 201-GHB-04 : Calcul différentiel et intégral dans l'espace
