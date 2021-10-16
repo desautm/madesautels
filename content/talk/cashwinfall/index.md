@@ -20,6 +20,6 @@ tags: []
 title: Comment gagner de l'argent sans se fatiguer?
 url_code: ""
 url_pdf: ""
-url_slides: "https://desautm.github.io/CashWinFall/#1"
+url_slides: https://desautm.github.io/CashWinFall/#1
 url_video: ""
 ---
