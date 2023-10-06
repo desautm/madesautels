@@ -3,7 +3,7 @@ abstract: "Le « Sloan Digital Sky Survey » est une immense base de données qu
 address:
 all_day: false
 authors: []
-date: "2020-12-10T16:00:00Z"
+date: "2023-10-14T16:00:00Z"
 date_end: ""
 event: 67e congrès de l’AMQ
 event_url: https://congres2023.amq.math.ca/
@@ -20,7 +20,7 @@ tags: []
 title: Perdus dans l'espace
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "ppt/LostInSpace.pptx"
 url_video: ""
 ---
 
