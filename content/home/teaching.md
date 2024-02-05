@@ -14,9 +14,9 @@
   
 +++
 
-À la session d'automne 2022, j'enseigne les cours suivants au Cégep Saint-Jean-sur-Richelieu:
+À la session d'hiver 2024, j'enseigne les cours suivants au Cégep Saint-Jean-sur-Richelieu:
 
-- 201-NYC-05 : Algèbre Linéaire et Géométrie Vectorielle
+- 201-8A5-ST : Mathématiques discrètes
 - 201-NYB-05 : Calcul Intégral
 
 Je suis également coordonnateur du programme [Sciences Informatique et Mathématiques](https://www.cstjean.qc.ca/programmes-detudes/preuniversitaires/sciences-informatiques-et-mathematiques).
