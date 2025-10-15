@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5 | Marc-André Désautels</title>
-    <link>/publication-type/5/</link>
-      <atom:link href="/publication-type/5/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://madesautels.rbind.io/publication-type/5/</link>
+      <atom:link href="http://madesautels.rbind.io/publication-type/5/index.xml" rel="self" type="application/rss+xml" />
     <description>5</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>http://madesautels.rbind.io/img/avatar.jpg</url>
       <title>5</title>
-      <link>/publication-type/5/</link>
+      <link>http://madesautels.rbind.io/publication-type/5/</link>
     </image>
     
     <item>
       <title>Calcul différentiel, 2e édition</title>
-      <link>/publication/book/calcul_differentiel/</link>
+      <link>http://madesautels.rbind.io/publication/book/calcul_differentiel/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/book/calcul_differentiel/</guid>
+      <guid>http://madesautels.rbind.io/publication/book/calcul_differentiel/</guid>
       <description>&lt;p&gt;Cette nouvelle édition apporte nombre d’améliorations dont :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Un contenu revu et corrigé pour le rendre plus clair et concis.&lt;/li&gt;
@@ -51,9 +51,9 @@
     
     <item>
       <title>Calcul intégral</title>
-      <link>/publication/book/calcul_integral/</link>
+      <link>http://madesautels.rbind.io/publication/book/calcul_integral/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/book/calcul_integral/</guid>
+      <guid>http://madesautels.rbind.io/publication/book/calcul_integral/</guid>
       <description>&lt;p&gt;Par sa démarche rigoureuse, Calcul intégral permet aux étudiants de faire l’apprentissage de techniques de résolution en les appliquant à des situations réelles. Cette application constante des notions théoriques sur des exemples concrets incite le développement d’une approche intuitive à la résolution de problème.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Le premier chapitre effectue un retour sur les notions vues dans Calcul différentiel, il introduit aussi la règle de L’Hospital et la notion de différentielle&lt;/li&gt;

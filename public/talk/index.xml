@@ -2,61 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Présentations récentes et à venir | Marc-André Désautels</title>
-    <link>/talk/</link>
-      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://madesautels.rbind.io/talk/</link>
+      <atom:link href="http://madesautels.rbind.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Présentations récentes et à venir</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>http://madesautels.rbind.io/img/avatar.jpg</url>
       <title>Présentations récentes et à venir</title>
-      <link>/talk/</link>
+      <link>http://madesautels.rbind.io/talk/</link>
     </image>
     
     <item>
-      <title>Mais où sont les trous de balles?</title>
-      <link>/talk/abraham_wald_club_math/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/abraham_wald_club_math/</guid>
+      <title>1/racine x, mais genre... vraiment vite</title>
+      <link>http://madesautels.rbind.io/talk/quake/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/quake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les machines perdent le Nord.</title>
+      <link>http://madesautels.rbind.io/talk/overflow_amq/</link>
+      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/overflow_amq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perdus dans l&#39;espace</title>
+      <link>http://madesautels.rbind.io/talk/lost_in_space/</link>
+      <pubDate>Sat, 14 Oct 2023 16:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/lost_in_space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comment utiliser les mathématiques... pour imprimer en 3D?</title>
+      <link>http://madesautels.rbind.io/talk/imprimante3d/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/imprimante3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les mathématiques... de l&#39;impression 3D.</title>
+      <link>http://madesautels.rbind.io/talk/abraham_wald_club_math/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/abraham_wald_club_math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comment gagner de l&#39;argent sans se fatiguer?</title>
+      <link>http://madesautels.rbind.io/talk/cashwinfall/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/cashwinfall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La falaise de la mort... ou les mathématiques en alpinisme</title>
+      <link>http://madesautels.rbind.io/talk/alpinisme_amq/</link>
+      <pubDate>Thu, 10 Dec 2020 16:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/alpinisme_amq/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mais où sont les trous de balles?</title>
-      <link>/talk/abraham_wald/</link>
+      <link>http://madesautels.rbind.io/talk/abraham_wald/</link>
       <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/abraham_wald/</guid>
+      <guid>http://madesautels.rbind.io/talk/abraham_wald/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Le problème du char d&#39;assaut allemand</title>
-      <link>/talk/char_assaut/</link>
+      <link>http://madesautels.rbind.io/talk/char_assaut/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/char_assaut/</guid>
+      <guid>http://madesautels.rbind.io/talk/char_assaut/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comment chercher (et trouver) une aiguille dans une botte de foin?</title>
-      <link>/talk/theoreme_bayes/</link>
+      <link>http://madesautels.rbind.io/talk/theoreme_bayes/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/talk/theoreme_bayes/</guid>
+      <guid>http://madesautels.rbind.io/talk/theoreme_bayes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Où suis-je? Le positionnement GPS dans la classe d&#39;algèbre linéaire</title>
-      <link>/talk/gps/</link>
+      <link>http://madesautels.rbind.io/talk/gps/</link>
       <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/talk/gps/</guid>
+      <guid>http://madesautels.rbind.io/talk/gps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trois applications méconnues pour sciences de la nature</title>
-      <link>/talk/trois_applications/</link>
+      <link>http://madesautels.rbind.io/talk/trois_applications/</link>
       <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>/talk/trois_applications/</guid>
+      <guid>http://madesautels.rbind.io/talk/trois_applications/</guid>
       <description></description>
     </item>
     

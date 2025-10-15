@@ -2,53 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Marc-André Désautels</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://madesautels.rbind.io/publication/</link>
+      <atom:link href="http://madesautels.rbind.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>http://madesautels.rbind.io/img/avatar.jpg</url>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>http://madesautels.rbind.io/publication/</link>
     </image>
     
     <item>
+      <title>La formule des lacets de souliers</title>
+      <link>http://madesautels.rbind.io/publication/formule_lacets_souliers/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/publication/formule_lacets_souliers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Améliorer l&#39;accessibilité au coeur des bidonvilles</title>
+      <link>http://madesautels.rbind.io/publication/bidonvilles/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/publication/bidonvilles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mais où sont les trous de balles?</title>
+      <link>http://madesautels.rbind.io/publication/trou_balles/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/publication/trou_balles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Formules magique pour volumes</title>
-      <link>/publication/formule_magique_volumes/</link>
+      <link>http://madesautels.rbind.io/publication/formule_magique_volumes/</link>
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/formule_magique_volumes/</guid>
+      <guid>http://madesautels.rbind.io/publication/formule_magique_volumes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Le problème du char d&#39;assaut allemand.</title>
-      <link>/publication/probleme_char_assaut/</link>
+      <link>http://madesautels.rbind.io/publication/probleme_char_assaut/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/probleme_char_assaut/</guid>
+      <guid>http://madesautels.rbind.io/publication/probleme_char_assaut/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comment chercher (et trouver) une aiguille dans une botte de foin.</title>
-      <link>/publication/theoreme_bayes/</link>
+      <link>http://madesautels.rbind.io/publication/theoreme_bayes/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/theoreme_bayes/</guid>
+      <guid>http://madesautels.rbind.io/publication/theoreme_bayes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Les mathématiques en alpinisme</title>
-      <link>/publication/mathematiques_alpinisme/</link>
+      <link>http://madesautels.rbind.io/publication/mathematiques_alpinisme/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/mathematiques_alpinisme/</guid>
+      <guid>http://madesautels.rbind.io/publication/mathematiques_alpinisme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Calcul différentiel, 2e édition</title>
-      <link>/publication/book/calcul_differentiel/</link>
+      <link>http://madesautels.rbind.io/publication/book/calcul_differentiel/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/book/calcul_differentiel/</guid>
+      <guid>http://madesautels.rbind.io/publication/book/calcul_differentiel/</guid>
       <description>&lt;p&gt;Cette nouvelle édition apporte nombre d’améliorations dont :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Un contenu revu et corrigé pour le rendre plus clair et concis.&lt;/li&gt;
@@ -83,9 +107,9 @@
     
     <item>
       <title>Calcul intégral</title>
-      <link>/publication/book/calcul_integral/</link>
+      <link>http://madesautels.rbind.io/publication/book/calcul_integral/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/book/calcul_integral/</guid>
+      <guid>http://madesautels.rbind.io/publication/book/calcul_integral/</guid>
       <description>&lt;p&gt;Par sa démarche rigoureuse, Calcul intégral permet aux étudiants de faire l’apprentissage de techniques de résolution en les appliquant à des situations réelles. Cette application constante des notions théoriques sur des exemples concrets incite le développement d’une approche intuitive à la résolution de problème.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Le premier chapitre effectue un retour sur les notions vues dans Calcul différentiel, il introduit aussi la règle de L’Hospital et la notion de différentielle&lt;/li&gt;
@@ -108,9 +132,9 @@
     
     <item>
       <title>L&#39;algorithme CORDIC</title>
-      <link>/publication/cordic/</link>
+      <link>http://madesautels.rbind.io/publication/cordic/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/cordic/</guid>
+      <guid>http://madesautels.rbind.io/publication/cordic/</guid>
       <description></description>
     </item>
     

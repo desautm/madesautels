@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vulgarisation | Marc-André Désautels</title>
-    <link>/tag/vulgarisation/</link>
-      <atom:link href="/tag/vulgarisation/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://madesautels.rbind.io/tag/vulgarisation/</link>
+      <atom:link href="http://madesautels.rbind.io/tag/vulgarisation/index.xml" rel="self" type="application/rss+xml" />
     <description>Vulgarisation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Wed, 03 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>http://madesautels.rbind.io/img/avatar.jpg</url>
       <title>Vulgarisation</title>
-      <link>/tag/vulgarisation/</link>
+      <link>http://madesautels.rbind.io/tag/vulgarisation/</link>
     </image>
     
     <item>
       <title>La suite de Fibonacci</title>
-      <link>/project/suite_fibonacci/</link>
+      <link>http://madesautels.rbind.io/project/suite_fibonacci/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/suite_fibonacci/</guid>
+      <guid>http://madesautels.rbind.io/project/suite_fibonacci/</guid>
       <description>&lt;p&gt;Voici les documents utilisés dans la présentation sur la suite de Fibonacci:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/ppt/Nombres_Fibonacci.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/ppt/Nombres_Fibonacci.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/pdf/Nombres_Fibonacci.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/Nombres_Fibonacci.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Le 
-&lt;a href=&#34;/pdf/FibonacciEleves.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour calculer quelques termes de la suite de Fibonacci.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/FibonacciEleves.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour calculer quelques termes de la suite de Fibonacci.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -37,22 +37,22 @@
     
     <item>
       <title>Le ruban de Möbius</title>
-      <link>/project/ruban_moebius/</link>
+      <link>http://madesautels.rbind.io/project/ruban_moebius/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/ruban_moebius/</guid>
+      <guid>http://madesautels.rbind.io/project/ruban_moebius/</guid>
       <description>&lt;p&gt;Voici les documents utilisés dans la présentation sur le ruban de Möbius:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/ppt/ruban_mobius.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/ppt/ruban_mobius.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/pdf/ruban_mobius_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/ruban_mobius_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Le 
-&lt;a href=&#34;/pdf/ruban_mobius_document.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour construire le ruban de Möbius.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/ruban_mobius_document.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour construire le ruban de Möbius.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -60,9 +60,9 @@
     
     <item>
       <title>Le théorème des quatre couleurs</title>
-      <link>/project/theoreme_quatre_couleurs/</link>
+      <link>http://madesautels.rbind.io/project/theoreme_quatre_couleurs/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/project/theoreme_quatre_couleurs/</guid>
+      <guid>http://madesautels.rbind.io/project/theoreme_quatre_couleurs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Je veux remercier Christian Côté pour l&amp;rsquo;idée de cet atelier.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -70,19 +70,19 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/ppt/theoreme_4_couleurs.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/ppt/theoreme_4_couleurs.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/pdf/theoreme_4_couleurs_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/theoreme_4_couleurs_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Le 
-&lt;a href=&#34;/pdf/theoreme_4_couleurs_livret.pdf&#34;&gt;livret sous format PDF&lt;/a&gt; utilisé pour discuter du théorème des 4 couleurs. Vous n&amp;rsquo;avez qu&amp;rsquo;à le plier en deux et vous dites aux élèves de colorier la coccinnelle avec &lt;strong&gt;deux&lt;/strong&gt; couleurs, la fleur à 4 pétales avec &lt;strong&gt;trois&lt;/strong&gt; couleurs et la dernière fleur avec &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/theoreme_4_couleurs_livret.pdf&#34;&gt;livret sous format PDF&lt;/a&gt; utilisé pour discuter du théorème des 4 couleurs. Vous n&amp;rsquo;avez qu&amp;rsquo;à le plier en deux et vous dites aux élèves de colorier la coccinnelle avec &lt;strong&gt;deux&lt;/strong&gt; couleurs, la fleur à 4 pétales avec &lt;strong&gt;trois&lt;/strong&gt; couleurs et la dernière fleur avec &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Une 
-&lt;a href=&#34;/pdf/theoreme_4_couleurs_dessins_maison.pdf&#34;&gt;feuille sous format PDF&lt;/a&gt; que les élèves peuvent ramener à la maison pour tenter de la colorier en n&amp;rsquo;utilisant que &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/theoreme_4_couleurs_dessins_maison.pdf&#34;&gt;feuille sous format PDF&lt;/a&gt; que les élèves peuvent ramener à la maison pour tenter de la colorier en n&amp;rsquo;utilisant que &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>

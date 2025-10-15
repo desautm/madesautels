@@ -1,0 +1,1154 @@
+<!DOCTYPE html><html lang="fr-fr" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Marc-André Désautels">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Mon deuxième package, onbabynames, vient tout juste d’arriver sur CRAN. Le package est en fait une base de données de tous les prénoms donnés aux enfants en Ontario entre 1917 et 2018.">
+
+  
+  <link rel="alternate" hreflang="fr-fr" href="http://madesautels.rbind.io/post/le-package-onbabynames/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="http://madesautels.rbind.io/post/le-package-onbabynames/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Marc-André Désautels">
+  <meta property="og:url" content="http://madesautels.rbind.io/post/le-package-onbabynames/">
+  <meta property="og:title" content="Le package onbabynames | Marc-André Désautels">
+  <meta property="og:description" content="Mon deuxième package, onbabynames, vient tout juste d’arriver sur CRAN. Le package est en fait une base de données de tous les prénoms donnés aux enfants en Ontario entre 1917 et 2018."><meta property="og:image" content="http://madesautels.rbind.io/img/avatar.jpg">
+  <meta property="twitter:image" content="http://madesautels.rbind.io/img/avatar.jpg"><meta property="og:locale" content="fr-fr">
+  
+    
+      <meta property="article:published_time" content="2021-05-04T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-05-04T07:44:04-04:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://madesautels.rbind.io/post/le-package-onbabynames/"
+  },
+  "headline": "Le package onbabynames",
+  
+  "datePublished": "2021-05-04T00:00:00Z",
+  "dateModified": "2021-05-04T07:44:04-04:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Marc-André Désautels"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Marc-André Désautels",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://madesautels.rbind.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Mon deuxième package, onbabynames, vient tout juste d’arriver sur CRAN. Le package est en fait une base de données de tous les prénoms donnés aux enfants en Ontario entre 1917 et 2018."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Le package onbabynames | Marc-André Désautels</title>
+
+</head>
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Rechercher</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Recherche..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Marc-André Désautels</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Ouvrir la barre de navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Marc-André Désautels</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Enseignement</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Présentations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projets</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Billets</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Coordonnées</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Rechercher"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Le package onbabynames</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Dernière mise à jour le
+      
+    
+    May 4, 2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min de lecture
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+<script src="http://madesautels.rbind.io/post/le-package-onbabynames/index.fr_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Mon deuxième package, <code>onbabynames</code>, vient tout juste d’arriver sur <a href="https://cran.r-project.org/">CRAN</a>. Le package est en fait une base de données de tous les prénoms donnés aux enfants en Ontario entre 1917 et 2018. Les prénoms donnés moins de 5 fois ont été enlevés de la base de données pour conserver la confidentialité des données</p>
+<p>Pour l’installer, rien de plus facile:</p>
+<pre class="r"><code>install.packages(&quot;onbabynames&quot;)</code></pre>
+<p>Vous pouvez ensuite l’utiliser comme ceci:</p>
+<pre class="r"><code>library(onbabynames)</code></pre>
+<p>Nous allons utiliser le package <code>tidyverse</code> pour visualiser les données:</p>
+<pre class="r"><code># install.packages(&quot;tidyverse&quot;) si le package n&#39;est pas encore installé
+library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --</code></pre>
+<pre><code>## v ggplot2 3.3.3     v purrr   0.3.4
+## v tibble  3.1.1     v dplyr   1.0.5
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<p>Une base de données sous la forme d’un <code>tibble</code> sera maintenant accessible sous le noms de <code>onbabynames</code>.</p>
+<pre class="r"><code>glimpse(onbabynames)</code></pre>
+<pre><code>## Rows: 161,703
+## Columns: 4
+## $ year &lt;int&gt; 1913, 1913, 1914, 1914, 1914, 1915, 1915, 1915, 1915, 1915, 1916,~
+## $ sex  &lt;chr&gt; &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, &quot;F&quot;, ~
+## $ name &lt;chr&gt; &quot;Margaret&quot;, &quot;Mary&quot;, &quot;Gladys&quot;, &quot;Margaret&quot;, &quot;Mary&quot;, &quot;Dorothy&quot;, &quot;Mar~
+## $ n    &lt;int&gt; 6, 7, 6, 9, 9, 9, 13, 10, 7, 7, 6, 8, 10, 6, 14, 12, 12, 7, 89, 6~</code></pre>
+<pre class="r"><code>onbabynames</code></pre>
+<pre><code>## # A tibble: 161,703 x 4
+##     year sex   name         n
+##    &lt;int&gt; &lt;chr&gt; &lt;chr&gt;    &lt;int&gt;
+##  1  1913 F     Margaret     6
+##  2  1913 F     Mary         7
+##  3  1914 F     Gladys       6
+##  4  1914 F     Margaret     9
+##  5  1914 F     Mary         9
+##  6  1915 F     Dorothy      9
+##  7  1915 F     Margaret    13
+##  8  1915 F     Marie       10
+##  9  1915 F     Mary         7
+## 10  1915 F     Ruth         7
+## # ... with 161,693 more rows</code></pre>
+<div id="quelques-exemples" class="section level1">
+<h1>Quelques exemples</h1>
+<div id="les-5-prénoms-masculins-les-plus-populaires-en-2018" class="section level2">
+<h2>Les 5 prénoms masculins les plus populaires en 2018</h2>
+<pre class="r"><code>onbabynames %&gt;% 
+  filter(year == 2018 &amp; sex == &quot;M&quot;) %&gt;% 
+  arrange(desc(n)) %&gt;% 
+  head(5)</code></pre>
+<pre><code>## # A tibble: 5 x 4
+##    year sex   name         n
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;    &lt;int&gt;
+## 1  2018 M     Liam       795
+## 2  2018 M     Noah       787
+## 3  2018 M     Lucas      671
+## 4  2018 M     William    660
+## 5  2018 M     Benjamin   643</code></pre>
+</div>
+<div id="les-5-prénoms-féminins-les-plus-populaires-en-2018" class="section level2">
+<h2>Les 5 prénoms féminins les plus populaires en 2018</h2>
+<pre class="r"><code>onbabynames %&gt;% 
+  filter(year == 2018 &amp; sex == &quot;F&quot;) %&gt;% 
+  arrange(desc(n)) %&gt;% 
+  head(5)</code></pre>
+<pre><code>## # A tibble: 5 x 4
+##    year sex   name          n
+##   &lt;int&gt; &lt;chr&gt; &lt;chr&gt;     &lt;int&gt;
+## 1  2018 F     Olivia      863
+## 2  2018 F     Emma        686
+## 3  2018 F     Charlotte   682
+## 4  2018 F     Amelia      560
+## 5  2018 F     Ava         559</code></pre>
+</div>
+<div id="lévolution-de-la-popularité-des-cinq-prénoms-féminins-les-plus-populaires-en-218" class="section level2">
+<h2>L’évolution de la popularité des cinq prénoms féminins les plus populaires en 218</h2>
+<pre class="r"><code>girls2018 &lt;- onbabynames %&gt;%
+    filter(year == 2018 &amp; sex == &quot;F&quot;) %&gt;%
+    arrange(desc(n)) %&gt;%
+    select(name) %&gt;%
+    head(5)
+
+onbabynames %&gt;%
+    filter(name %in% girls2018$name) %&gt;%
+    ggplot(aes(x = year, y = n, color = name)) +
+    geom_line()</code></pre>
+<p><img src="staticunnamed-chunk-8-1.png" width="672" /></p>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=http://madesautels.rbind.io/post/le-package-onbabynames/&amp;text=Le%20package%20onbabynames" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=http://madesautels.rbind.io/post/le-package-onbabynames/&amp;t=Le%20package%20onbabynames" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Le%20package%20onbabynames&amp;body=http://madesautels.rbind.io/post/le-package-onbabynames/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=http://madesautels.rbind.io/post/le-package-onbabynames/&amp;title=Le%20package%20onbabynames" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Le%20package%20onbabynames%20http://madesautels.rbind.io/post/le-package-onbabynames/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=http://madesautels.rbind.io/post/le-package-onbabynames/&amp;title=Le%20package%20onbabynames" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/marc-andre-desautels/avatar_hu85b12f766f492a30a4d1f2ad46b2a2d1_116399_270x270_fill_q90_lanczos_center.jpg" alt="Marc-André Désautels">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="http://madesautels.rbind.io/">Marc-André Désautels</a></h5>
+        <h6 class="card-subtitle">Enseignant de mathématiques</h6>
+        <p class="card-text">Je m&rsquo;intéresse particulièrement à la vulgarisation et à la promotion des mathématiques.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/desautm" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"Aucun résultat n'a été trouvé","placeholder":"Recherche...","results":"Résultats trouvés"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projets",
+        'publication' : "Publications",
+        'talk' : "Présentations",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.9393c87ec980e85bccf7cf21c9a8162e.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copier
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Télécharger
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

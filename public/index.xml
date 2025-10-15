@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marc-André Désautels</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://madesautels.rbind.io/</link>
+      <atom:link href="http://madesautels.rbind.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Marc-André Désautels</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>fr-fr</language><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/avatar.jpg</url>
+      <url>http://madesautels.rbind.io/img/avatar.jpg</url>
       <title>Marc-André Désautels</title>
-      <link>/</link>
+      <link>http://madesautels.rbind.io/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>/courses/example/example1/</link>
+      <link>http://madesautels.rbind.io/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example1/</guid>
+      <guid>http://madesautels.rbind.io/courses/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
+      <link>http://madesautels.rbind.io/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
+      <guid>http://madesautels.rbind.io/courses/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -55,18 +55,368 @@
     </item>
     
     <item>
+      <title>1/racine x, mais genre... vraiment vite</title>
+      <link>http://madesautels.rbind.io/talk/quake/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/quake/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les machines perdent le Nord.</title>
+      <link>http://madesautels.rbind.io/talk/overflow_amq/</link>
+      <pubDate>Sat, 19 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/overflow_amq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La formule des lacets de souliers</title>
+      <link>http://madesautels.rbind.io/publication/formule_lacets_souliers/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/publication/formule_lacets_souliers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perdus dans l&#39;espace</title>
+      <link>http://madesautels.rbind.io/talk/lost_in_space/</link>
+      <pubDate>Sat, 14 Oct 2023 16:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/lost_in_space/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Améliorer l&#39;accessibilité au coeur des bidonvilles</title>
+      <link>http://madesautels.rbind.io/publication/bidonvilles/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/publication/bidonvilles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comment utiliser les mathématiques... pour imprimer en 3D?</title>
+      <link>http://madesautels.rbind.io/talk/imprimante3d/</link>
+      <pubDate>Wed, 19 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/imprimante3d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Les mathématiques... de l&#39;impression 3D.</title>
+      <link>http://madesautels.rbind.io/talk/abraham_wald_club_math/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/abraham_wald_club_math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comment gagner de l&#39;argent sans se fatiguer?</title>
+      <link>http://madesautels.rbind.io/talk/cashwinfall/</link>
+      <pubDate>Sat, 16 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/cashwinfall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Congrès virtuel de l&#39;AMQ 2021</title>
+      <link>http://madesautels.rbind.io/post/congres-virtuel-de-l-amq-2021/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/post/congres-virtuel-de-l-amq-2021/</guid>
+      <description>&lt;p&gt;Le congrès de l&amp;rsquo;AMQ 2021 se déroulera de manière virtuelle à partir du 15 octobre. Vous pouvez accéder à la page officielle du congrès 
+&lt;a href=&#34;https://congres2021.amq.math.ca/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Je présente l&amp;rsquo;atelier du 16 octobre intitulé: Comment gagner de l&amp;rsquo;argent sans se fatiguer. En voici le résumé:&lt;/p&gt;
+&lt;p&gt;Au début des années 2000, la &lt;em&gt;Michigan State Lottery&lt;/em&gt; crée une nouvelle loterie, &lt;em&gt;Cash
+WinFall&lt;/em&gt;. En raison d&amp;rsquo;un &lt;em&gt;mécanisme nouveau&lt;/em&gt; ayant pour but d&amp;rsquo;inciter davantage de
+gens à jouer à cette loterie, deux groupes de personnes se mettent à acheter des
+dizaines de milliers de billets:&lt;/p&gt;
+&lt;p&gt;a) Un retraité du Michigan nommé Gerard Selbee dirigeant un groupe
+« d&amp;rsquo;investisseurs ».&lt;/p&gt;
+&lt;p&gt;b) Un groupe d&amp;rsquo;étudiants du MIT (Massachusets Institute of Technology) qui
+s&amp;rsquo;appelaient « Random Strategies », dirigés par James Harvey.&lt;/p&gt;
+&lt;p&gt;Mais pourquoi ces deux groupes ont-ils achetés autant de billets? Nous verrons que le
+&lt;em&gt;mécanisme nouveau&lt;/em&gt; de cette loterie signifiait qu&amp;rsquo;à certains moments, acheter un
+billet impliquait une &lt;strong&gt;espérance mathématique positive&lt;/strong&gt;! Donc, si vous achetiez
+beaucoup (beaucoup!) de billets pour des tirages précis, vous alliez probablement faire
+de gros profits, sans vous fatiguer (en fait, c&amp;rsquo;est plus fatiguant qu&amp;rsquo;on pense!).
+Nous expliquerons comment ce &lt;em&gt;mécanisme nouveau&lt;/em&gt; permettait de gagner de l&amp;rsquo;argent
+à certaines périodes, les tactiques différentes employées par ces deux groupes
+d&amp;rsquo;investisseurs et de quelle manière il est possible de diminuer la variance des résultats.
+Serez-vous les prochains millionnaires?&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://congres2021.amq.math.ca/inscription-au-congres/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cliquez ici pour accéder à la page d&amp;rsquo;inscription&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Le package onbabynames</title>
+      <link>http://madesautels.rbind.io/post/le-package-onbabynames/</link>
+      <pubDate>Tue, 04 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/post/le-package-onbabynames/</guid>
+      <description>
+&lt;script src=&#34;http://madesautels.rbind.io/post/le-package-onbabynames/index.fr_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Mon deuxième package, &lt;code&gt;onbabynames&lt;/code&gt;, vient tout juste d’arriver sur &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;CRAN&lt;/a&gt;. Le package est en fait une base de données de tous les prénoms donnés aux enfants en Ontario entre 1917 et 2018. Les prénoms donnés moins de 5 fois ont été enlevés de la base de données pour conserver la confidentialité des données&lt;/p&gt;
+&lt;p&gt;Pour l’installer, rien de plus facile:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;onbabynames&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vous pouvez ensuite l’utiliser comme ceci:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(onbabynames)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nous allons utiliser le package &lt;code&gt;tidyverse&lt;/code&gt; pour visualiser les données:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;tidyverse&amp;quot;) si le package n&amp;#39;est pas encore installé
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## v ggplot2 3.3.3     v purrr   0.3.4
+## v tibble  3.1.1     v dplyr   1.0.5
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Une base de données sous la forme d’un &lt;code&gt;tibble&lt;/code&gt; sera maintenant accessible sous le noms de &lt;code&gt;onbabynames&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;glimpse(onbabynames)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Rows: 161,703
+## Columns: 4
+## $ year &amp;lt;int&amp;gt; 1913, 1913, 1914, 1914, 1914, 1915, 1915, 1915, 1915, 1915, 1916,~
+## $ sex  &amp;lt;chr&amp;gt; &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, ~
+## $ name &amp;lt;chr&amp;gt; &amp;quot;Margaret&amp;quot;, &amp;quot;Mary&amp;quot;, &amp;quot;Gladys&amp;quot;, &amp;quot;Margaret&amp;quot;, &amp;quot;Mary&amp;quot;, &amp;quot;Dorothy&amp;quot;, &amp;quot;Mar~
+## $ n    &amp;lt;int&amp;gt; 6, 7, 6, 9, 9, 9, 13, 10, 7, 7, 6, 8, 10, 6, 14, 12, 12, 7, 89, 6~&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;onbabynames&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 161,703 x 4
+##     year sex   name         n
+##    &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;    &amp;lt;int&amp;gt;
+##  1  1913 F     Margaret     6
+##  2  1913 F     Mary         7
+##  3  1914 F     Gladys       6
+##  4  1914 F     Margaret     9
+##  5  1914 F     Mary         9
+##  6  1915 F     Dorothy      9
+##  7  1915 F     Margaret    13
+##  8  1915 F     Marie       10
+##  9  1915 F     Mary         7
+## 10  1915 F     Ruth         7
+## # ... with 161,693 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;quelques-exemples&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Quelques exemples&lt;/h1&gt;
+&lt;div id=&#34;les-5-prénoms-masculins-les-plus-populaires-en-2018&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Les 5 prénoms masculins les plus populaires en 2018&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;onbabynames %&amp;gt;% 
+  filter(year == 2018 &amp;amp; sex == &amp;quot;M&amp;quot;) %&amp;gt;% 
+  arrange(desc(n)) %&amp;gt;% 
+  head(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 x 4
+##    year sex   name         n
+##   &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;    &amp;lt;int&amp;gt;
+## 1  2018 M     Liam       795
+## 2  2018 M     Noah       787
+## 3  2018 M     Lucas      671
+## 4  2018 M     William    660
+## 5  2018 M     Benjamin   643&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;les-5-prénoms-féminins-les-plus-populaires-en-2018&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Les 5 prénoms féminins les plus populaires en 2018&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;onbabynames %&amp;gt;% 
+  filter(year == 2018 &amp;amp; sex == &amp;quot;F&amp;quot;) %&amp;gt;% 
+  arrange(desc(n)) %&amp;gt;% 
+  head(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 x 4
+##    year sex   name          n
+##   &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;     &amp;lt;int&amp;gt;
+## 1  2018 F     Olivia      863
+## 2  2018 F     Emma        686
+## 3  2018 F     Charlotte   682
+## 4  2018 F     Amelia      560
+## 5  2018 F     Ava         559&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lévolution-de-la-popularité-des-cinq-prénoms-féminins-les-plus-populaires-en-218&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;L’évolution de la popularité des cinq prénoms féminins les plus populaires en 218&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;girls2018 &amp;lt;- onbabynames %&amp;gt;%
+    filter(year == 2018 &amp;amp; sex == &amp;quot;F&amp;quot;) %&amp;gt;%
+    arrange(desc(n)) %&amp;gt;%
+    select(name) %&amp;gt;%
+    head(5)
+
+onbabynames %&amp;gt;%
+    filter(name %in% girls2018$name) %&amp;gt;%
+    ggplot(aes(x = year, y = n, color = name)) +
+    geom_line()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;staticunnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Le package prenoms</title>
+      <link>http://madesautels.rbind.io/post/le-package-prenoms/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/post/le-package-prenoms/</guid>
+      <description>
+&lt;script src=&#34;http://madesautels.rbind.io/post/le-package-prenoms/index.fr_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Mon premier package, &lt;code&gt;prenoms&lt;/code&gt;, vient tout juste d’arriver sur &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;CRAN&lt;/a&gt;. Le package est en fait une base de données de tous les prénoms donnés aux enfants du Québec entre 1980 et 2020.&lt;/p&gt;
+&lt;p&gt;Pour l’installer, rien de plus facile:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;install.packages(&amp;quot;prenoms&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Vous pouvez ensuite l’utiliser comme ceci:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(prenoms)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nous allons utiliser le package &lt;code&gt;tidyverse&lt;/code&gt; pour visualiser les données:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# install.packages(&amp;quot;tidyverse&amp;quot;) si le package n&amp;#39;est pas encore installé
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## v ggplot2 3.3.3     v purrr   0.3.4
+## v tibble  3.1.1     v dplyr   1.0.5
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Une base de données sous la forme d’un &lt;code&gt;tibble&lt;/code&gt; sera maintenant accessible sous le noms de &lt;code&gt;prenoms&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;glimpse(prenoms)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Rows: 769,890
+## Columns: 4
+## $ year &amp;lt;int&amp;gt; 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980, 1980,~
+## $ sex  &amp;lt;chr&amp;gt; &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, &amp;quot;F&amp;quot;, ~
+## $ name &amp;lt;chr&amp;gt; &amp;quot;A-Catherine&amp;quot;, &amp;quot;A-Christiane&amp;quot;, &amp;quot;A-Fernanda&amp;quot;, &amp;quot;A-Genevieve&amp;quot;, &amp;quot;A Ch~
+## $ n    &amp;lt;int&amp;gt; 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1,~&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;prenoms&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 769,890 x 4
+##     year sex   name             n
+##    &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;        &amp;lt;int&amp;gt;
+##  1  1980 F     A-Catherine      2
+##  2  1980 F     A-Christiane     1
+##  3  1980 F     A-Fernanda       1
+##  4  1980 F     A-Genevieve      1
+##  5  1980 F     A Charlotte      1
+##  6  1980 F     A Dominique      1
+##  7  1980 F     A Elisabeth      2
+##  8  1980 F     A Francoise      1
+##  9  1980 F     A Icha           1
+## 10  1980 F     A Maria          1
+## # ... with 769,880 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;quelques-exemples&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Quelques exemples&lt;/h1&gt;
+&lt;div id=&#34;les-5-prénoms-masculins-les-plus-populaires-en-2020&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Les 5 prénoms masculins les plus populaires en 2020&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;prenoms %&amp;gt;% 
+  filter(year == 2020 &amp;amp; sex == &amp;quot;M&amp;quot;) %&amp;gt;% 
+  arrange(desc(n)) %&amp;gt;% 
+  head(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 x 4
+##    year sex   name        n
+##   &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;   &amp;lt;int&amp;gt;
+## 1  2020 M     Liam      661
+## 2  2020 M     William   644
+## 3  2020 M     Noah      639
+## 4  2020 M     Thomas    594
+## 5  2020 M     Leo       572&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;les-5-prénoms-féminins-les-plus-populaires-en-2020&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Les 5 prénoms féminins les plus populaires en 2020&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;prenoms %&amp;gt;% 
+  filter(year == 2020 &amp;amp; sex == &amp;quot;F&amp;quot;) %&amp;gt;% 
+  arrange(desc(n)) %&amp;gt;% 
+  head(5)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 5 x 4
+##    year sex   name          n
+##   &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt; &amp;lt;chr&amp;gt;     &amp;lt;int&amp;gt;
+## 1  2020 F     Olivia      543
+## 2  2020 F     Alice       491
+## 3  2020 F     Emma        491
+## 4  2020 F     Charlie     488
+## 5  2020 F     Charlotte   449&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;la-popularité-des-prénoms-de-ma-famille-entre-1980-et-2020&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;La popularité des prénoms de ma famille entre 1980 et 2020&lt;/h2&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;family &amp;lt;- prenoms %&amp;gt;%
+  filter(
+    name == &amp;quot;Marc-Andre&amp;quot; &amp;amp; sex == &amp;quot;M&amp;quot; |
+    name == &amp;quot;Laurent&amp;quot; &amp;amp; sex == &amp;quot;M&amp;quot; |
+    name == &amp;quot;Melanie&amp;quot; &amp;amp; sex == &amp;quot;F&amp;quot; |
+    name == &amp;quot;Anna&amp;quot; &amp;amp; sex == &amp;quot;F&amp;quot;
+  ) %&amp;gt;%
+  group_by(name, year, sex) %&amp;gt;%
+  summarise(n = sum(n)) %&amp;gt;%
+  arrange(year)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## `summarise()` has grouped output by &amp;#39;name&amp;#39;, &amp;#39;year&amp;#39;. You can override using the `.groups` argument.&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(data = family, aes(x = year, y = n, color = name))+
+  geom_line()+
+  scale_x_continuous( breaks = seq(1980, 2020, by = 5))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;staticunnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>La falaise de la mort... ou les mathématiques en alpinisme</title>
+      <link>http://madesautels.rbind.io/talk/alpinisme_amq/</link>
+      <pubDate>Thu, 10 Dec 2020 16:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/talk/alpinisme_amq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mais où sont les trous de balles?</title>
+      <link>http://madesautels.rbind.io/publication/trou_balles/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/publication/trou_balles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Congrès virtuel de l&#39;AMQ 2020</title>
+      <link>http://madesautels.rbind.io/post/congres-virtuel-de-l-amq-2020/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>http://madesautels.rbind.io/post/congres-virtuel-de-l-amq-2020/</guid>
+      <description>&lt;p&gt;Le congrès de l&amp;rsquo;AMQ 2020 se déroulera de manière virtuelle à partir du 12 novembre. Vouc pouvez accéder à la page officielle du congrès 
+&lt;a href=&#34;https://www.amq.math.ca/congres/virtuel2020/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pour l&amp;rsquo;instant, voici les ateliers qui seront offerts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;12 novembre, France Caron, Simon de Montigny et Shophika Vaithyanathasarma (Université de Montréal), Apprendre à modéliser et à simuler, pour la santé et l’environnement&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;26 novembre, Christian Genest (Université McGill),  Méthodes statistiques d’évaluation des risques de catastrophes environnementales&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;10 décembre, Marc-André Désautels (Cégep Saint-Jean-sur-Richelieu), La falaise de la mort ou les mathématiques en alpinisme.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;11 février, Christiane Rousseau (Université de Montréal), La COVID nous interpelle&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;25 février, Anne-Sophie Charest (Université Laval), Statistiques anormales: inférence statistique sans la loi normale&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;11 mars, à venir&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;25 mars, à venir&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;15 avril, à venir&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Je présente l&amp;rsquo;atelier du 10 décembre. Le coût pour avoir accès à tous les ateliers conférences est de 75&lt;code&gt;$&lt;/code&gt;. Vous pouvez également vous inscrire à une seule activité pour un coût de 20&lt;code&gt;$&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.amq.math.ca/congres/virtuel2020/inscription/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cliquez ici pour accéder à la page d&amp;rsquo;inscription&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Formules magique pour volumes</title>
-      <link>/publication/formule_magique_volumes/</link>
+      <link>http://madesautels.rbind.io/publication/formule_magique_volumes/</link>
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/formule_magique_volumes/</guid>
+      <guid>http://madesautels.rbind.io/publication/formule_magique_volumes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Les plateformes d&#39;évaluation en ligne</title>
-      <link>/post/les-plateformes-d-evaluation-en-ligne/</link>
+      <link>http://madesautels.rbind.io/post/les-plateformes-d-evaluation-en-ligne/</link>
       <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>/post/les-plateformes-d-evaluation-en-ligne/</guid>
+      <guid>http://madesautels.rbind.io/post/les-plateformes-d-evaluation-en-ligne/</guid>
       <description>
 
 
@@ -180,46 +530,38 @@ La manière la plus simple de créer une évaluation en ligne est de téléverse
     
     <item>
       <title>Mais où sont les trous de balles?</title>
-      <link>/talk/abraham_wald_club_math/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/abraham_wald_club_math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mais où sont les trous de balles?</title>
-      <link>/talk/abraham_wald/</link>
+      <link>http://madesautels.rbind.io/talk/abraham_wald/</link>
       <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/talk/abraham_wald/</guid>
+      <guid>http://madesautels.rbind.io/talk/abraham_wald/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Le problème du char d&#39;assaut allemand.</title>
-      <link>/publication/probleme_char_assaut/</link>
+      <link>http://madesautels.rbind.io/publication/probleme_char_assaut/</link>
       <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/probleme_char_assaut/</guid>
+      <guid>http://madesautels.rbind.io/publication/probleme_char_assaut/</guid>
       <description></description>
     </item>
     
     <item>
       <title>La suite de Fibonacci</title>
-      <link>/project/suite_fibonacci/</link>
+      <link>http://madesautels.rbind.io/project/suite_fibonacci/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/suite_fibonacci/</guid>
+      <guid>http://madesautels.rbind.io/project/suite_fibonacci/</guid>
       <description>&lt;p&gt;Voici les documents utilisés dans la présentation sur la suite de Fibonacci:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/ppt/Nombres_Fibonacci.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/ppt/Nombres_Fibonacci.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/pdf/Nombres_Fibonacci.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/Nombres_Fibonacci.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Le 
-&lt;a href=&#34;/pdf/FibonacciEleves.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour calculer quelques termes de la suite de Fibonacci.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/FibonacciEleves.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour calculer quelques termes de la suite de Fibonacci.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -227,22 +569,22 @@ La manière la plus simple de créer une évaluation en ligne est de téléverse
     
     <item>
       <title>Le ruban de Möbius</title>
-      <link>/project/ruban_moebius/</link>
+      <link>http://madesautels.rbind.io/project/ruban_moebius/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>/project/ruban_moebius/</guid>
+      <guid>http://madesautels.rbind.io/project/ruban_moebius/</guid>
       <description>&lt;p&gt;Voici les documents utilisés dans la présentation sur le ruban de Möbius:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/ppt/ruban_mobius.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/ppt/ruban_mobius.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/pdf/ruban_mobius_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/ruban_mobius_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Le 
-&lt;a href=&#34;/pdf/ruban_mobius_document.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour construire le ruban de Möbius.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/ruban_mobius_document.pdf&#34;&gt;document sous format PDF&lt;/a&gt; utilisé pour construire le ruban de Möbius.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -250,9 +592,9 @@ La manière la plus simple de créer une évaluation en ligne est de téléverse
     
     <item>
       <title>Slides</title>
-      <link>/slides/example/</link>
+      <link>http://madesautels.rbind.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>/slides/example/</guid>
+      <guid>http://madesautels.rbind.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -302,15 +644,15 @@ $$&lt;/p&gt;
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+   One 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+   **Two** 
 &lt;/span&gt;
 &lt;span class=&#34;fragment &#34; &gt;
-Three
-&lt;/span&gt;&lt;/p&gt;
+   Three 
+&lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
 &lt;ul&gt;
@@ -384,43 +726,25 @@ Three
     
     <item>
       <title>Le problème du char d&#39;assaut allemand</title>
-      <link>/talk/char_assaut/</link>
+      <link>http://madesautels.rbind.io/talk/char_assaut/</link>
       <pubDate>Sat, 13 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/talk/char_assaut/</guid>
+      <guid>http://madesautels.rbind.io/talk/char_assaut/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comment chercher (et trouver) une aiguille dans une botte de foin.</title>
-      <link>/publication/theoreme_bayes/</link>
+      <link>http://madesautels.rbind.io/publication/theoreme_bayes/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>/publication/theoreme_bayes/</guid>
+      <guid>http://madesautels.rbind.io/publication/theoreme_bayes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Le théorème des quatre couleurs</title>
-      <link>/project/theoreme_quatre_couleurs/</link>
+      <link>http://madesautels.rbind.io/project/theoreme_quatre_couleurs/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/project/theoreme_quatre_couleurs/</guid>
+      <guid>http://madesautels.rbind.io/project/theoreme_quatre_couleurs/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Je veux remercier Christian Côté pour l&amp;rsquo;idée de cet atelier.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -428,19 +752,19 @@ Three
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/ppt/theoreme_4_couleurs.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/ppt/theoreme_4_couleurs.pptx&#34;&gt;présentation sous format PowerPoint&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;La 
-&lt;a href=&#34;/pdf/theoreme_4_couleurs_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/theoreme_4_couleurs_presentation.pdf&#34;&gt;présentation sous format PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Le 
-&lt;a href=&#34;/pdf/theoreme_4_couleurs_livret.pdf&#34;&gt;livret sous format PDF&lt;/a&gt; utilisé pour discuter du théorème des 4 couleurs. Vous n&amp;rsquo;avez qu&amp;rsquo;à le plier en deux et vous dites aux élèves de colorier la coccinnelle avec &lt;strong&gt;deux&lt;/strong&gt; couleurs, la fleur à 4 pétales avec &lt;strong&gt;trois&lt;/strong&gt; couleurs et la dernière fleur avec &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/theoreme_4_couleurs_livret.pdf&#34;&gt;livret sous format PDF&lt;/a&gt; utilisé pour discuter du théorème des 4 couleurs. Vous n&amp;rsquo;avez qu&amp;rsquo;à le plier en deux et vous dites aux élèves de colorier la coccinnelle avec &lt;strong&gt;deux&lt;/strong&gt; couleurs, la fleur à 4 pétales avec &lt;strong&gt;trois&lt;/strong&gt; couleurs et la dernière fleur avec &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Une 
-&lt;a href=&#34;/pdf/theoreme_4_couleurs_dessins_maison.pdf&#34;&gt;feuille sous format PDF&lt;/a&gt; que les élèves peuvent ramener à la maison pour tenter de la colorier en n&amp;rsquo;utilisant que &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
+&lt;a href=&#34;http://madesautels.rbind.io/pdf/theoreme_4_couleurs_dessins_maison.pdf&#34;&gt;feuille sous format PDF&lt;/a&gt; que les élèves peuvent ramener à la maison pour tenter de la colorier en n&amp;rsquo;utilisant que &lt;strong&gt;quatre&lt;/strong&gt; couleurs.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -448,33 +772,33 @@ Three
     
     <item>
       <title>Comment chercher (et trouver) une aiguille dans une botte de foin?</title>
-      <link>/talk/theoreme_bayes/</link>
+      <link>http://madesautels.rbind.io/talk/theoreme_bayes/</link>
       <pubDate>Sat, 14 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/talk/theoreme_bayes/</guid>
+      <guid>http://madesautels.rbind.io/talk/theoreme_bayes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Les mathématiques en alpinisme</title>
-      <link>/publication/mathematiques_alpinisme/</link>
+      <link>http://madesautels.rbind.io/publication/mathematiques_alpinisme/</link>
       <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/publication/mathematiques_alpinisme/</guid>
+      <guid>http://madesautels.rbind.io/publication/mathematiques_alpinisme/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Où suis-je? Le positionnement GPS dans la classe d&#39;algèbre linéaire</title>
-      <link>/talk/gps/</link>
+      <link>http://madesautels.rbind.io/talk/gps/</link>
       <pubDate>Sat, 15 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>/talk/gps/</guid>
+      <guid>http://madesautels.rbind.io/talk/gps/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Calcul différentiel, 2e édition</title>
-      <link>/publication/book/calcul_differentiel/</link>
+      <link>http://madesautels.rbind.io/publication/book/calcul_differentiel/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/book/calcul_differentiel/</guid>
+      <guid>http://madesautels.rbind.io/publication/book/calcul_differentiel/</guid>
       <description>&lt;p&gt;Cette nouvelle édition apporte nombre d’améliorations dont :&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Un contenu revu et corrigé pour le rendre plus clair et concis.&lt;/li&gt;
@@ -509,9 +833,9 @@ Three
     
     <item>
       <title>Calcul intégral</title>
-      <link>/publication/book/calcul_integral/</link>
+      <link>http://madesautels.rbind.io/publication/book/calcul_integral/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>/publication/book/calcul_integral/</guid>
+      <guid>http://madesautels.rbind.io/publication/book/calcul_integral/</guid>
       <description>&lt;p&gt;Par sa démarche rigoureuse, Calcul intégral permet aux étudiants de faire l’apprentissage de techniques de résolution en les appliquant à des situations réelles. Cette application constante des notions théoriques sur des exemples concrets incite le développement d’une approche intuitive à la résolution de problème.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Le premier chapitre effectue un retour sur les notions vues dans Calcul différentiel, il introduit aussi la règle de L’Hospital et la notion de différentielle&lt;/li&gt;
@@ -534,17 +858,17 @@ Three
     
     <item>
       <title>L&#39;algorithme CORDIC</title>
-      <link>/publication/cordic/</link>
+      <link>http://madesautels.rbind.io/publication/cordic/</link>
       <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>/publication/cordic/</guid>
+      <guid>http://madesautels.rbind.io/publication/cordic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trois applications méconnues pour sciences de la nature</title>
-      <link>/talk/trois_applications/</link>
+      <link>http://madesautels.rbind.io/talk/trois_applications/</link>
       <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
-      <guid>/talk/trois_applications/</guid>
+      <guid>http://madesautels.rbind.io/talk/trois_applications/</guid>
       <description></description>
     </item>
     
